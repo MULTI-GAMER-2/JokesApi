@@ -21,21 +21,12 @@ var JsonJokeString = JSON.stringify(JsonJoke.Jokes[randomNumber]);
 
 //Here are the jokes, Now lets print they inside JokesContainer at every click
 
-var RandomizeJoke = document.getElementById('RandomizeJoke')
 
-RandomizeJoke.addEventListener('click', function(){
 
-if(RandomizeJoke.click()){
+function Randomizer(){
     
 JokesContainer.innerHTML = JsonJokeString;
-    
-}else{
-
-    return;
 
 }
-
-})
-
 
 //Now lets host this on github to netlify to api
