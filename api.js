@@ -29,7 +29,7 @@ function Randomizer(){
 
 
 JokesContainer.innerHTML = JsonJokeString;
-   }, 7000)
+   }, 7000).then(JokesContainer.innerHTML = JsonJokeString;)
 
 }
 
