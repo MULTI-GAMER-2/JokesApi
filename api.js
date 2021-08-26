@@ -21,10 +21,19 @@ var JsonJokeString = JSON.stringify(JsonJoke.Jokes[randomNumber]);
 
 //Here are the jokes, Now lets print they inside JokesContainer at every click
 
-document.getElementById('RandomizeJoke').addEventListener('click', function(){
+var RandomizeJoke = document.getElementById('RandomizeJoke')
 
+RandomizeJoke.addEventListener('click', function(){
+
+if(RandomizeJoke.click()){
     
 JokesContainer.innerHTML = JsonJokeString;
+    
+}else{
+
+    return;
+
+}
 
 })
 
