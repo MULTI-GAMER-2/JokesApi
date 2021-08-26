@@ -26,6 +26,7 @@ var JsonJokeString = JSON.stringify(JsonJoke.Jokes[randomNumber]);
 function Randomizer(){
     
 JokesContainer.innerHTML = JsonJokeString;
+    return;
 
 }
 
