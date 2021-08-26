@@ -28,7 +28,7 @@ var JsonJokeString = JSON.stringify(JsonJoke.Jokes[randomNumber]);
 
 
 JokesContainer.innerHTML = JsonJokeString;
-   }, 7000)
+   }, 7000).then(JokesContainer.innerHTML = JsonJokeString);
 
 
 
