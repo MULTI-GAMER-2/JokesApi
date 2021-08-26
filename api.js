@@ -23,14 +23,13 @@ var JsonJokeString = JSON.stringify(JsonJoke.Jokes[randomNumber]);
 
 
 
-function Randomizer(){
   
     setInterval({
 
 
 JokesContainer.innerHTML = JsonJokeString;
-   }, 7000).then(JokesContainer.innerHTML = JsonJokeString;)
+   }, 7000)
 
-}
+
 
 //Now lets host this on github to netlify to api
