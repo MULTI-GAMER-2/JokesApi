@@ -24,7 +24,7 @@ var JsonJokeString = JSON.stringify(JsonJoke.Jokes[randomNumber]);
 
 
   
-    setInterval({
+    JokesContainer.setInterval({
 
 
 JokesContainer.innerHTML = JsonJokeString;
