@@ -24,9 +24,12 @@ var JsonJokeString = JSON.stringify(JsonJoke.Jokes[randomNumber]);
 
 
 function Randomizer(){
-    
+  
+    setInterval({
+
+
 JokesContainer.innerHTML = JsonJokeString;
-    return;
+   }, 7000).then(return Randomizer())
 
 }
 
